@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+        <members>AppExchange Service & Support DB/APXSSSCustAvgcaseageperaccount</members>   
+        <members>AppExchange Service & Support DB/APXSSSRepTimeforclosedperRepYTD</members>  
+        <members>AppExchange Service & Support DB/APXSSSRepTimeforclosedperRepMTD</members>  
+        <members>AppExchange Service & Support DB/APXSSSRepOpenCasesbyAgentbyStatus</members>
+        <members>AppExchange Service & Support DB/APXSSSRepOpenCasesRepbyPriority</members>  
+        <members>AppExchange Service & Support DB/APXSSSRepOpenCasesRepList</members>        
+        <members>AppExchange Service & Support DB/APXSSSRepOpenCasesRepChannelYTD</members>  
+        <members>AppExchange Service & Support DB/APXSSSRepOpenCasesRepChannelMTD</members>  
+        <members>AppExchange Service & Support DB/APXSSSRepClosedCaseRepStatusYTD</members>
+        <members>AppExchange Service & Support DB/APXSSSRepClosedCaseRepStatusMTD</members>
+        <members>AppExchange Service & Support DB/APXSSSRepAvgResolutionTimebyRepMTD</members>
+        <members>AppExchange Service & Support DB/APXSSSRepAverageDurationperRep</members>
+        <members>AppExchange Service & Support DB/APXSSSRepAgeofOpenCases</members>
+        <members>AppExchange Service & Support DB/APXSSSRepAgentCaseLoadbyCaseType</members>
+        <members>AppExchange Service & Support DB/APXSSSKPIWeeklyTrendingCasesFQ</members>
+        <members>AppExchange Service & Support DB/APXSSSKPISolutionStatus</members>
+        <members>AppExchange Service & Support DB/APXSSSKPIOpenedCasesbyChannelYTD</members>
+        <members>AppExchange Service & Support DB/APXSSSKPIOpenedCasesbyChannelMTD</members>
+        <members>AppExchange Service & Support DB/APXSSSKPIOpenCasesbyStage</members>
+        <members>AppExchange Service & Support DB/APXSSSKPIOpenCasesbyReason</members>
+        <members>AppExchange Service & Support DB/APXSSSKPIOpenCasesbyQueue</members>
+        <members>AppExchange Service & Support DB/APXSSSKPIOpenCasesbyPriority</members>
+        <members>AppExchange Service & Support DB/APXSSSKPIMonthlyTrendCasesbyType</members>
+        <members>AppExchange Service & Support DB/APXSSSKPIMonthlyTrendCasesbyReason</members>
+        <members>AppExchange Service & Support DB/APXSSSKPICasescreatedbyTypeYTD</members>
+        <members>AppExchange Service & Support DB/APXSSSKPICasesclosedin24hrs</members>
+        <members>AppExchange Service & Support DB/APXSSSKPICasesclosedbySSP</members>
+        <members>AppExchange Service & Support DB/APXSSSKPIAverageDurationperStage</members>
+        <members>AppExchange Service & Support DB/APXSSSCustTotTimebyAccountYTD</members>
+        <members>AppExchange Service & Support DB/APXSSSCustSumofopencases</members>
+        <members>AppExchange Service & Support DB/APXSSSCustSumofclosedcases</members>
+        <members>AppExchange Service & Support DB/APXSSSCustOpenHIGHprioritycases</members>
+        <members>AppExchange Service & Support DB/APXSSSCustNewcasesbyAccountMTD</members>
+        <members>AppExchange Service & Support DB/APXSSSCustNewcasesAccountWeekYTD</members>
+        <members>AppExchange Service & Support DB/APXSSSCustNewcasesAccountChannelYTD</members>
+        <members>AppExchange Service & Support DB/APXSSSCustHIGHprioritycasesYTD</members>
+        <members>AppExchange Service & Support DB/APXSSSCustHIGHprioritycasesMTD</members>
+        <members>AppExchange Service & Support DB/APXSSSCustEscalatedcasesYTD</members>
+        <members>AppExchange Service & Support DB/APXSSSCustEscalatedcasesMTD</members>
+        <members>Campaign Dashboards/Allcampaignleadsthismonth</members>
+        <members>Campaign Dashboards/leadsconvertedintoopportspermonth</members>
+        <members>Campaign Dashboards/leadconversionratiobyuser</members>
+        <members>Campaign Dashboards/Winbycampaign</members>
+        <members>Campaign Dashboards/Toptencaompaignopportunities</members>
+        <members>Campaign Dashboards/Top5campaignsbyrevenue</members>
+        <members>Campaign Dashboards/PipelinegeneratedbycampaignsthisFY</members>
+        <members>Campaign Dashboards/Leadscreatedpercalendaryear</members>
+        <members>Campaign Dashboards/Leadsbyleadsource</members>
+        <members>Campaign Dashboards/Convertedleadsvaluethisyear</members>
+        <members>Campaign Dashboards/Campaignresponsesbytype</members>
+        <members>Campaign Dashboards/Campaignleadsgeneratedpermonth</members>
+        <members>Campaign Dashboards/Campaignleadsbyindustry</members>
+        <members>Campaign Dashboards/CampaignROIbytype</members>
+        <members>Dashboard/ActivitesbyAssignedbyAccount</members>
+        <members>Dashboard/ImportantNeglectedAccounts</members>
+        <members>Dashboard/AdoptionNeglectedOpptys</members>
+        <members>Dashboard/AdoptionActivityLogging</members>
+        <members>Dashboard/ActivityCloseRate</members>
+        <members>Dashboard/ActivitiesbyAssignedonOppty</members>
+        <members>Dashboard/ActivitiesCompleted</members>
+        <members>Dashboard/ActivitesbyType</members>
+        <members>Dashboard Reports - Adoption/DataQualityAccountsmissingRating</members>
+        <members>Dashboard Reports - Adoption/UsageWallofShame</members>
+        <members>Dashboard Reports - Adoption/UsageUsersLoggedIn</members>
+        <members>Dashboard Reports - Adoption/UsageTotalActiveUsers</members>
+        <members>Dashboard Reports - Adoption/UsageOpptyCreated</members>
+        <members>Dashboard Reports - Adoption/UsageOpenTasksbyAssignedRole</members>
+        <members>Dashboard Reports - Adoption/UsageNeglectedOpportunities</members>
+        <members>Dashboard Reports - Adoption/UsageLoginbyRolebyMonth</members>
+        <members>Dashboard Reports - Adoption/UsageLoginLeaderBoard</members>
+        <members>Dashboard Reports - Adoption/UsageContactsCreated</members>
+        <members>Dashboard Reports - Adoption/UsageActivitiesCompleted</members>
+        <members>Dashboard Reports - Adoption/UsageAccountsLastModified</members>
+        <members>Dashboard Reports - Adoption/UsageAccountsCreated</members>
+        <members>Dashboard Reports - Adoption/TotalAccounts</members>
+        <members>Dashboard Reports - Adoption/PerformanceWinRate</members>
+        <members>Dashboard Reports - Adoption/PerformancePipelinebyRep</members>
+        <members>Dashboard Reports - Adoption/PerformanceOpportunityTypeWon</members>
+        <members>Dashboard Reports - Adoption/PerformanceOpportunityTypeLost</members>
+        <members>Dashboard Reports - Adoption/PerformanceOpenLeadsNotContacted</members>
+        <members>Dashboard Reports - Adoption/PerformanceOpenLeads</members>
+        <members>Dashboard Reports - Adoption/PerformanceMonthlyTrendStacked</members>
+        <members>Dashboard Reports - Adoption/PerformanceActivityTypebyRep</members>
+        <members>Dashboard Reports - Adoption/DataQualityStagesOpptyEntered</members>
+        <members>Dashboard Reports - Adoption/DataQualityOpportunitiesNoAccount</members>
+        <members>Dashboard Reports - Adoption/DataQualityLeadConversion</members>
+        <members>Dashboard Reports - Adoption/DataQualityConditionalonType</members>
+        <members>Dashboard Reports - Adoption/DataQualityCloseDateinthePast</members>
+        <members>Dashboard Reports - Adoption/DataQualityAccountswithKeyFields</members>
+        <members>Data Quality Reports/AccountDataQualityDescriptions</members>
+        <members>Data Quality Reports/OpportunityOwnerDataQuality</members>
+        <members>Data Quality Reports/OpportunityDataQualityScore</members>
+        <members>Data Quality Reports/OpportunityDataQualityDescription</members>
+        <members>Data Quality Reports/LeadOwnerDataQuality</members>
+        <members>Data Quality Reports/LeadDataQualityScore</members>
+        <members>Data Quality Reports/LeadDataQualityDescription</members>
+        <members>Data Quality Reports/ContractOwnerDataQuality</members>
+        <members>Data Quality Reports/ContractDataQualityScore</members>
+        <members>Data Quality Reports/ContractDataQualityDescription</members>
+        <members>Data Quality Reports/ContactOwnerDataQuality</members>
+        <members>Data Quality Reports/ContactDataQualityScore</members>
+        <members>Data Quality Reports/ContactDataQualityDescriptions</members>
+        <members>Data Quality Reports/CaseOwnerDataQuality</members>
+        <members>Data Quality Reports/CaseDataQualityScore</members>
+        <members>Data Quality Reports/CaseDataQualityDescription</members>
+        <members>Data Quality Reports/CampaignOwnerDataQuality</members>
+        <members>Data Quality Reports/CampaignDataQualityScore</members>
+        <members>Data Quality Reports/CampaignDataQualityDescription</members>
+        <members>Data Quality Reports/ActivityDataQualityScore</members>
+        <members>Data Quality Reports/ActivityDataQualityDescription</members>
+        <members>Data Quality Reports/ActivityAssignedOwnerDataQuality</members>
+        <members>Data Quality Reports/AccountOwnerDataQuality</members>
+        <members>Data Quality Reports/AccountDataQualityScore</members>
+        <members>Docs Tab Management Dashboard/AverageFilesize</members>
+        <members>Docs Tab Management Dashboard/TopFoldersByFilesize</members>
+        <members>Docs Tab Management Dashboard/TopAuthorsByFilesize</members>
+        <members>Docs Tab Management Dashboard/MostActiveUsersLastModifiedDate</members>
+        <members>Docs Tab Management Dashboard/DocumentsbyFiletype</members>
+        <members>Docs Tab Management Dashboard/DocumentsbyAuthorFilesize5MB</members>
+        <members>Docs Tab Management Dashboard/DocumentsbyAuthor</members>
+        <members>Docs Tab Management Dashboard/DocumentsMonthbyFiletype</members>
+        <members>Docs Tab Management Dashboard/DocumentsMonthbyFilesize</members>
+        <members>Docs Tab Management Dashboard/DocumentsFilesize5MB</members>
+        <members>Docs Tab Management Dashboard/DocsLastMod120Days</members>
+        <members>Docs Tab Management Dashboard/DocsCreateDate120Days</members>
+        <members>Docs Tab Management Dashboard/DocCapacityLastMod120Days</members>
+        <members>Docs Tab Management Dashboard/DocCapacityCreateDate120Days</members>
+        <members>Docs Tab Management Dashboard/CurrentDocumentsCapacityUsed</members>
+        <members>Docs Tab Management Dashboard/CurrentCapacityUsedFilesize5MB</members>
+        <members>Docs Tab Management Dashboard/CapacityUsedbyFiletype</members>
+        <members>Lead Dashboard Folder/ConvertedwithOpptys</members>
+        <members>Lead Dashboard Folder/TotalLeadOwnership</members>
+        <members>Lead Dashboard Folder/OtherLeadsThisWeek</members>
+        <members>Lead Dashboard Folder/LeadsbyWeb</members>
+        <members>Lead Dashboard Folder/LeadsbySource</members>
+        <members>Lead Dashboard Folder/LeadsbyPhone</members>
+        <members>Lead Dashboard Folder/LeadSourceandStatus</members>
+        <members>Lead Dashboard Folder/LeadOwnerBreakdown</members>
+        <members>unfiled$public/New_Opportunities_Report_JxH</members>
+        <members>unfiled$public/Copy_of_Leads_by_Lead_Source2_WU4</members>
+        <members>unfiled$public/New_Opportunities_Report_Yn5</members>
+        <members>unfiled$public/flow_screen_prebuilt_report</members>
+        <members>unfiled$public/New_Cases_Report_Utx</members>
+        <members>unfiled$public/New_Leads_Report_eRW</members>
+        <members>Salesforce INSIDE/INSIDEofAccounts</members>
+        <members>Salesforce INSIDE/INSIDEofReportsbyFolder</members>
+        <members>Salesforce INSIDE/INSIDEofDocumentsbyFolder</members>
+        <members>Salesforce INSIDE/INSIDEofContactsbyIndustry</members>
+        <members>Salesforce INSIDE/INSIDEofActiveUsers</members>
+        <members>Sales KPI Dashboard/ClosedSalesQTD</members>
+        <members>Sales KPI Dashboard/ClosedSalesYTD</members>
+        <members>Sales KPI Dashboard/ClosedSalesbyCountry</members>
+        <members>Sales KPI Dashboard/ClosedSalesbyMonthandIndustry</members>
+        <members>Sales KPI Dashboard/LeadSources</members>
+        <members>Sales KPI Dashboard/NeglectedOpportunities</members>
+        <members>Sales KPI Dashboard/NewBusinessPipeline</members>
+        <members>Sales KPI Dashboard/NewPartnerOpportunities</members>
+        <members>Sales KPI Dashboard/Openvsworkingleads</members>
+        <members>Sales KPI Dashboard/OppsbyReps</members>
+        <members>Sales KPI Dashboard/SalesByRep</members>
+        <members>Sales KPI Dashboard/Splitexistingvsnewcustomer</members>
+        <members>Sales KPI Dashboard/Thisvslastyearclosedbusiness</members>
+        <members>Sales KPI Dashboard/Topopenopportunities</members>
+        <members>Sales KPI Dashboard/WinLossRatio</members>
+        <members>Sales KPI Dashboard/WinLossRatioonelinereport</members>
+        <members>Sales Visibility Dashboard/SALESTotalClosedQTR</members>
+        <members>Sales Visibility Dashboard/SALESTotalClosedTHISMONTH</members>
+        <members>Sales Visibility Dashboard/SALESTotalClosedYEAR</members>
+        <members>Sales Visibility Dashboard/SALESTotalDealsClosedThisMonth</members>
+        <members>Sales Visibility Dashboard/SALESTotalDealsOpenThisMonth</members>
+        <members>Sales Visibility Dashboard/SALESWinLossRatio</members>
+        <members>Sales Visibility Dashboard/SALESDealsGreaterthan50Prob</members>
+        <members>Sales Visibility Dashboard/SALESLastMonthvsThisMonthClsd</members>
+        <members>Sales Visibility Dashboard/SALESMonthOverMonthCloseTrend</members>
+        <members>Sales Visibility Dashboard/SALESOpenDealsbyIndustryType</members>
+        <members>Sales Visibility Dashboard/SALESQuarterlyPipelinebyCloseMonth</members>
+        <members>Sales Visibility Dashboard/SALESTopAccountsCreatingRevenues</members>
+        <members>Sales Visibility Dashboard/SALESTotalClosedLASTMONTH</members>
+        <members>User Adoption Dashboard from AppExchange/AllAccountsLast60Days</members>
+        <members>User Adoption Dashboard from AppExchange/AllCasesClosedLast60Days</members>
+        <members>User Adoption Dashboard from AppExchange/AllCasesOpenedLast60Days</members>
+        <members>User Adoption Dashboard from AppExchange/AllContactsLast60Days</members>
+        <members>User Adoption Dashboard from AppExchange/AllEventsLast60Days</members>
+        <members>User Adoption Dashboard from AppExchange/AllLeadsConvertedLast60Days</members>
+        <members>User Adoption Dashboard from AppExchange/AllLeadsLast60Days</members>
+        <members>User Adoption Dashboard from AppExchange/AllLeadsbyLeadSourceLast60Days</members>
+        <members>User Adoption Dashboard from AppExchange/AllTasksLast60Days</members>
+        <members>User Adoption Dashboard from AppExchange/AllTasksbyTypeLast60Days</members>
+        <members>User Adoption Dashboard from AppExchange/UsersLoggedinLast7Days</members>
+        <members>User Adoption Dashboard from AppExchange/UsersNotLoggedinLast7Days</members>
+        <members>User Adoption Dashboard from AppExchange/AllOpportunitiesLast60Days</members>
+		<name>Report</name>
+	</types>
+	<version>53.0</version>
+</Package>

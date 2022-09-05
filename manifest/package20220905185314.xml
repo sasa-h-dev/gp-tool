@@ -1,0 +1,1200 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<name>AIApplication</name>
+	</types>
+	<types>
+		<name>AIApplicationConfig</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>ActionLinkGroupTemplate</name>
+	</types>
+	<types>
+		<name>AnalyticSnapshot</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>AnimationRule</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>ApexClass</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>ApexComponent</name>
+	</types>
+	<types>
+		<members>apexEmailNotifications</members>
+		<name>ApexEmailNotifications</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>ApexPage</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>ApexTestSuite</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>ApexTrigger</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>AppMenu</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>ApprovalProcess</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>AssignmentRules</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>Audience</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>AuraDefinitionBundle</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>AuthProvider</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>AutoResponseRules</name>
+	</types>
+	<types>
+		<name>BlacklistedConsumer</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>BrandingSet</name>
+	</types>
+	<types>
+		<name>BriefcaseDefinition</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>CMSConnectSource</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>CallCenter</name>
+	</types>
+	<types>
+		<name>CallCoachingMediaProvider</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>CampaignInfluenceModel</name>
+	</types>
+	<types>
+		<name>CanvasMetadata</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>Certificate</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>ChannelLayout</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>ChatterExtension</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>CleanDataService</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>Community</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>CommunityTemplateDefinition</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>CommunityThemeDefinition</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>ConnectedApp</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>ContentAsset</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>CorsWhitelistOrigin</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>CspTrustedSite</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>CustomApplication</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>CustomApplicationComponent</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>CustomFeedFilter</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>CustomHelpMenuSection</name>
+	</types>
+	<types>
+		<name>CustomIndex</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>CustomLabels</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>CustomMetadata</name>
+	</types>
+	<types>
+		<name>CustomNotificationType</name>
+	</types>
+	<types>
+		<members>Account</members>
+		<members>AccountBrand</members>
+		<members>AccountCleanInfo</members>
+		<members>AccountContactRole</members>
+		<members>AccountTeamMember</members>
+		<members>ActiveScratchOrg</members>
+		<members>Activity</members>
+		<members>AffiliatedCompanyHis__c</members>
+		<members>AffiliatedCompany__c</members>
+		<members>AgentWork</members>
+		<members>AgentWorkSkill</members>
+		<members>AlternativePaymentMethod</members>
+		<members>ApexCustomLogSetting__c</members>
+		<members>ApexCustomLog__c</members>
+		<members>ApiAnomalyEventStore</members>
+		<members>Application__c</members>
+		<members>Asset</members>
+		<members>AssetAction</members>
+		<members>AssetActionSource</members>
+		<members>AssetRelationship</members>
+		<members>AssetStatePeriod</members>
+		<members>AssistantProgress</members>
+		<members>AssociatedLocation</members>
+		<members>AuthorizationForm</members>
+		<members>AuthorizationFormConsent</members>
+		<members>AuthorizationFormDataUse</members>
+		<members>AuthorizationFormText</members>
+		<members>BOJReportCurrency__c</members>
+		<members>BusinessBrand</members>
+		<members>BuyerAccount</members>
+		<members>BuyerGroup</members>
+		<members>BuyerGroupMember</members>
+		<members>BuyerGroupPricebook</members>
+		<members>Campaign</members>
+		<members>CampaignMember</members>
+		<members>Camping_Item__c</members>
+		<members>CardPaymentMethod</members>
+		<members>CartCheckoutSession</members>
+		<members>CartDeliveryGroup</members>
+		<members>CartItem</members>
+		<members>CartItemPriceAdjustment</members>
+		<members>CartRelatedItem</members>
+		<members>CartTax</members>
+		<members>CartValidationOutput</members>
+		<members>Case</members>
+		<members>CaseContactRole</members>
+		<members>ChannelProgram</members>
+		<members>ChannelProgramLevel</members>
+		<members>ChannelProgramMember</members>
+		<members>ChatterActivity</members>
+		<members>ChatterHistory__c</members>
+		<members>CollaborationGroup</members>
+		<members>CollaborationGroupMember</members>
+		<members>CommSubscription</members>
+		<members>CommSubscriptionChannelType</members>
+		<members>CommSubscriptionConsent</members>
+		<members>CommSubscriptionTiming</members>
+		<members>CommerceEntitlementBuyerGroup</members>
+		<members>CommerceEntitlementPolicy</members>
+		<members>CommerceEntitlementProduct</members>
+		<members>ConsumptionRate</members>
+		<members>ConsumptionSchedule</members>
+		<members>Contact</members>
+		<members>ContactCleanInfo</members>
+		<members>ContactPointAddress</members>
+		<members>ContactPointConsent</members>
+		<members>ContactPointEmail</members>
+		<members>ContactPointPhone</members>
+		<members>ContactPointTypeConsent</members>
+		<members>ContactRequest</members>
+		<members>ContentVersion</members>
+		<members>Contract</members>
+		<members>ContractContactRole</members>
+		<members>ContractDelivDoc__c</members>
+		<members>ContractHis__c</members>
+		<members>Contract__c</members>
+		<members>CorporateNo__c</members>
+		<members>Country__c</members>
+		<members>Coupon</members>
+		<members>CredentialStuffingEventStore</members>
+		<members>CreditMemo</members>
+		<members>CreditMemoInvApplication</members>
+		<members>CreditMemoLine</members>
+		<members>CustAccSettleDate__c</members>
+		<members>Customer</members>
+		<members>CustomerIntroducerKarte__c</members>
+		<members>DailyRemainingLimits__c</members>
+		<members>DandBCompany</members>
+		<members>DataUseLegalBasis</members>
+		<members>DataUsePurpose</members>
+		<members>DelegatedAccount</members>
+		<members>Dept__c</members>
+		<members>DigitalWallet</members>
+		<members>DisposalGainCalcPattern__c</members>
+		<members>DocumentDestination__c</members>
+		<members>DummyReport__c</members>
+		<members>DuplicateRecordItem</members>
+		<members>DuplicateRecordSet</members>
+		<members>EffectiveTaxRateName__c</members>
+		<members>EffectiveTaxRate__c</members>
+		<members>ElectronicMediaGroup</members>
+		<members>ElectronicMediaUse</members>
+		<members>EmailMessage</members>
+		<members>EngLearnPlan__c</members>
+		<members>EngagementChannelType</members>
+		<members>EquipmentMaster__c</members>
+		<members>EstimationOutputItems__c</members>
+		<members>Event</members>
+		<members>ExchangeUserMapping</members>
+		<members>Expense__c</members>
+		<members>ExpressionFilter</members>
+		<members>ExpressionFilterCriteria</members>
+		<members>ExternalEventMapping</members>
+		<members>Father__c</members>
+		<members>FeedItem</members>
+		<members>FinanceBalanceSnapshot</members>
+		<members>FinanceTransaction</members>
+		<members>FinancialFacilityBranch__c</members>
+		<members>FinancialFacility__c</members>
+		<members>FincilFaciltyBranchMsterIntrdcer__c</members>
+		<members>FincilFaciltyMsterIntrdcer__c</members>
+		<members>ForecastingAdjustment</members>
+		<members>ForecastingCategoryMapping</members>
+		<members>ForecastingOwnerAdjustment</members>
+		<members>ForecastingQuota</members>
+		<members>ForecastingTypeToCategory</members>
+		<members>G_QatAnswer__c</members>
+		<members>G_Words__c</members>
+		<members>GuestBuyerProfile</members>
+		<members>Idea</members>
+		<members>Image</members>
+		<members>Individual</members>
+		<members>Invoice</members>
+		<members>InvoiceLine</members>
+		<members>ItaCustomer__c</members>
+		<members>ItaListPerforman__c</members>
+		<members>JapaneseGrammar__c</members>
+		<members>JapaneseWord__c</members>
+		<members>JlptExample__c</members>
+		<members>JlptGrammar__c</members>
+		<members>JournalBook__c</members>
+		<members>K_Student__c</members>
+		<members>Knowledge__kav</members>
+		<members>Lead</members>
+		<members>LeadCleanInfo</members>
+		<members>LearningAssignment</members>
+		<members>LearningAssignmentProgress</members>
+		<members>LearningItem</members>
+		<members>LearningItemAssignment</members>
+		<members>LearningItemProgress</members>
+		<members>LearningLinkProgress</members>
+		<members>LegalEntity</members>
+		<members>Lender__c</members>
+		<members>LesseeGroupHist__c</members>
+		<members>LesseeGroup__c</members>
+		<members>LesseeHist__c</members>
+		<members>Lessee__c</members>
+		<members>LinkedArticle</members>
+		<members>Location</members>
+		<members>LocationGroup</members>
+		<members>LocationGroupAssignment</members>
+		<members>Macro</members>
+		<members>MacroAction</members>
+		<members>MacroInstruction</members>
+		<members>MacroUsage</members>
+		<members>ManagedContentVersion</members>
+		<members>NBBAcnt__c</members>
+		<members>NamespaceRegistry</members>
+		<members>NegotiationReport__c</members>
+		<members>NetworkMember</members>
+		<members>NetworkMemberChunk</members>
+		<members>Opportunity</members>
+		<members>OpportunityCompetitor</members>
+		<members>OpportunityContactRole</members>
+		<members>OpportunityLineItem</members>
+		<members>OpportunityTeamMember</members>
+		<members>Order</members>
+		<members>OrderItem</members>
+		<members>OrgDeleteRequest</members>
+		<members>OrgMetricScanResult</members>
+		<members>OrgMetricScanSummary</members>
+		<members>PartnerFundAllocation</members>
+		<members>PartnerFundClaim</members>
+		<members>PartnerFundRequest</members>
+		<members>PartnerMarketingBudget</members>
+		<members>PartnerRole</members>
+		<members>PartyConsent</members>
+		<members>Payment</members>
+		<members>PaymentAuthAdjustment</members>
+		<members>PaymentAuthorization</members>
+		<members>PaymentGateway</members>
+		<members>PaymentGroup</members>
+		<members>PaymentLineInvoice</members>
+		<members>PaymentMethod</members>
+		<members>PendingServiceRouting</members>
+		<members>Pricebook2</members>
+		<members>PricebookEntry</members>
+		<members>ProcessException</members>
+		<members>Product2</members>
+		<members>ProductAttribute</members>
+		<members>ProductAttributeSetProduct</members>
+		<members>ProductCatalog</members>
+		<members>ProductCategory</members>
+		<members>ProductCategoryMedia</members>
+		<members>ProductCategoryProduct</members>
+		<members>ProductConsumptionSchedule</members>
+		<members>ProductMedia</members>
+		<members>ProductQuantityRule</members>
+		<members>ProductScenario__c</members>
+		<members>Product__c</members>
+		<members>Promotion</members>
+		<members>PromotionMarketSegment</members>
+		<members>PromotionQualifier</members>
+		<members>PromotionSegment</members>
+		<members>PromotionSegmentBuyerGroup</members>
+		<members>PromotionSegmentSalesStore</members>
+		<members>PromotionTarget</members>
+		<members>PromptAction</members>
+		<members>PromptError</members>
+		<members>PurchaseQuantityRule</members>
+		<members>Qat_Answer__c</members>
+		<members>Qat_Question__c</members>
+		<members>Qat_Title__c</members>
+		<members>QuickText</members>
+		<members>QuickTextUsage</members>
+		<members>Quote</members>
+		<members>QuoteLineItem</members>
+		<members>Recommendation</members>
+		<members>RecordAction</members>
+		<members>RecordMergeHistory</members>
+		<members>Refund</members>
+		<members>RefundLinePayment</members>
+		<members>ReportAnomalyEventStore</members>
+		<members>SPI__c</members>
+		<members>SVA_ApplicationForm__c</members>
+		<members>SVA_AuditGroupStaffAccountRelation__c</members>
+		<members>SVA_AuditGroup__c</members>
+		<members>SVA_AuditHistory__c</members>
+		<members>SVA_AutomaticAuditResult__c</members>
+		<members>SVA_Comment__c</members>
+		<members>SVA_Delegation__c</members>
+		<members>SVA_FileStore__c</members>
+		<members>SVA_Information__c</members>
+		<members>SVA_NotificationDocumentTemplate__c</members>
+		<members>SVA_NotificationDocument__c</members>
+		<members>SVA_ProcessAuditGroupRelation__c</members>
+		<members>SVA_ProcessNotificationDocument__c</members>
+		<members>SVA_RequestForm__c</members>
+		<members>SVA_RequestProject__c</members>
+		<members>SVA_Role__c</members>
+		<members>SVA_SecretariatCheckListElement__c</members>
+		<members>SVA_SecretariatCheckListResult__c</members>
+		<members>SVA_SecretariatCheckList__c</members>
+		<members>SVA_StaffAccount__c</members>
+		<members>SVA_SubsidyCourse__c</members>
+		<members>SVA_SubsidyPhase__c</members>
+		<members>SVA_Subsidy__c</members>
+		<members>SVA_Workflow__c</members>
+		<members>SalesStore</members>
+		<members>SalesStoreCatalog</members>
+		<members>Scorecard</members>
+		<members>ScorecardAssociation</members>
+		<members>ScorecardMetric</members>
+		<members>ScratchOrgInfo</members>
+		<members>Seller</members>
+		<members>ServiceResource</members>
+		<members>ServiceResourceSkill</members>
+		<members>SessionHijackingEventStore</members>
+		<members>Shipment</members>
+		<members>ShipmentItem</members>
+		<members>SimilarPattern__c</members>
+		<members>Site</members>
+		<members>SkillRequirement</members>
+		<members>SocialPersona</members>
+		<members>Solution</members>
+		<members>Son__c</members>
+		<members>StreamActivityAccess</members>
+		<members>StreamingChannel</members>
+		<members>Task</members>
+		<members>Teiban__c</members>
+		<members>Territory2</members>
+		<members>Territory2Model</members>
+		<members>TestHierarchy__c</members>
+		<members>TestRecordTypeObj__c</members>
+		<members>Topic</members>
+		<members>TopicAssignment</members>
+		<members>TriggerActiveControl__c</members>
+		<members>User</members>
+		<members>UserProvisioningRequest</members>
+		<members>UserReport__c</members>
+		<members>UserServicePresence</members>
+		<members>UserTerritory2Association</members>
+		<members>WebCart</members>
+		<members>WebCartAdjustmentBasis</members>
+		<members>WebCartAdjustmentGroup</members>
+		<members>WebStore</members>
+		<members>WebStoreBuyerGroup</members>
+		<members>WebStoreCatalog</members>
+		<members>WebStoreNetwork</members>
+		<members>WebStorePricebook</members>
+		<members>WebStoreSearchProdSettings</members>
+		<members>Wishlist</members>
+		<members>WishlistItem</members>
+		<members>accounts__c</members>
+		<members>test__c</members>
+		<name>CustomObject</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>CustomObjectTranslation</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>CustomPageWebLink</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>CustomPermission</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>CustomSite</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>CustomTab</name>
+	</types>
+	<types>
+		<members>1 - Adoption Dashboards/x1AdoptionUsage</members>
+		<members>1 - Adoption Dashboards/x2AdoptionDataQuality</members>
+		<members>1 - Adoption Dashboards/x4UserAdoptionbyArrowpoint</members>
+		<members>1 - Adoption Dashboards/x3AdoptionBusinessPerformance</members>
+		<members>2 - Sales Dashboards/x1SalesActivity</members>
+		<members>2 - Sales Dashboards/x2LeadFlowDashboard</members>
+		<members>2 - Sales Dashboards/x4SalesKPI</members>
+		<members>2 - Sales Dashboards/x3SalesExecutiveDashboard</members>
+		<members>3 - Marketing Dashboard/x1CampaignMetricsDashboard</members>
+		<members>4 - Support Dashboards/x1CustomerInformation</members>
+		<members>4 - Support Dashboards/x4RepAgentPerformance</members>
+		<members>4 - Support Dashboards/x3SupportKPIs</members>
+		<members>4 - Support Dashboards/x2ExecutiveOverview</members>
+		<members>5 - Documents Tab Management/x1DocumentsTabManagement</members>
+		<members>6 - Data Quality Analysis/x1AccountContactOpportunityDataQuality</members>
+		<members>6 - Data Quality Analysis/x2CampaignLeadActivityDataQuality</members>
+		<members>6 - Data Quality Analysis/x4HighLevelDataQualityAnalysis</members>
+		<members>6 - Data Quality Analysis/x3CaseContractDataQuality</members>
+		<members>6 - Data Quality Analysis/x1AccountContactOpportunityDataQuality1</members>
+		<members>7 - What's Inside/x1WhatsInsideSalesforce</members>
+		<name>Dashboard</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>DataCategoryGroup</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>DelegateGroup</name>
+	</types>
+	<types>
+		<name>Document</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>DuplicateRule</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>EclairGeoData</name>
+	</types>
+	<types>
+		<name>EmailServicesFunction</name>
+	</types>
+	<types>
+		<members>unfiled$public/CommunityDeviceActEmailTemplate</members>
+		<members>test/test_1641645707431</members>
+		<members>unfiled$public/CommunityChgEmailVerNewTemplate</members>
+		<members>unfiled$public/CommunityLockoutEmailTemplate</members>
+		<members>unfiled$public/CommunityVerificationEmailTemplate</members>
+		<members>unfiled$public/CommunityWelcomeEmailTemplate</members>
+		<members>unfiled$public/CommunityChangePasswordEmailTemplate</members>
+		<members>unfiled$public/CommunityForgotPasswordEmailTemplate</members>
+		<members>unfiled$public/SupportCaseAssignmentNotification</members>
+		<members>unfiled$public/SupportCaseCreatedPhoneInquiries</members>
+		<members>unfiled$public/SupportCaseCreatedWebInquiries</members>
+		<members>unfiled$public/SUPPORTSelfServiceNewCommentNotificationSAMPLE</members>
+		<members>unfiled$public/SupportSelfServiceResetPassword</members>
+		<members>unfiled$public/SupportSelfServiceNewLoginandPassword</members>
+		<members>unfiled$public/SupportEscalatedCaseReassignment</members>
+		<members>unfiled$public/SupportEscalatedCaseNotification</members>
+		<members>unfiled$public/MarketingProductInquiryResponse</members>
+		<members>unfiled$public/SupportCaseResponse</members>
+		<members>unfiled$public/SalesNewCustomerEmail</members>
+		<members>unfiled$public/SUPPORTSelfServiceNewUserLoginInformationSAMPLE</members>
+		<members>unfiled$public/SUPPORTSelfServiceResetPasswordSAMPLE</members>
+		<members>unfiled$public/ExperienceCloudSelfRegMicroBatchSubErrorEmailTemplate</members>
+		<members>unfiled$public/CommunityChgEmailVerOldTemplate</members>
+		<name>EmailTemplate</name>
+	</types>
+	<types>
+		<name>EmbeddedServiceBranding</name>
+	</types>
+	<types>
+		<name>EmbeddedServiceConfig</name>
+	</types>
+	<types>
+		<name>EmbeddedServiceFlowConfig</name>
+	</types>
+	<types>
+		<name>EmbeddedServiceMenuSettings</name>
+	</types>
+	<types>
+		<name>EntityImplements</name>
+	</types>
+	<types>
+		<members>Case</members>
+		<name>EscalationRules</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>ExperienceBundle</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>ExternalDataSource</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>ExternalServiceRegistration</name>
+	</types>
+	<types>
+		<name>FieldRestrictionRule</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>FlexiPage</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>Flow</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>FlowCategory</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>FlowDefinition</name>
+	</types>
+	<types>
+		<name>ForecastingSourceDefinition</name>
+	</types>
+	<types>
+		<members>Current_Fiscal_Year</members>
+		<members>Current_Fiscal_Year1</members>
+		<members>Current_Fiscal_Year2</members>
+		<members>Current_Fiscal_Year3</members>
+		<members>Current_Fiscal_Year4</members>
+		<members>Current_Fiscal_Year5</members>
+		<members>Current_Fiscal_Year6</members>
+		<members>Current_Fiscal_Year7</members>
+		<members>LineItemQuantityProductDate</members>
+		<members>LineItemQuantityScheduleDate</members>
+		<members>LineItemRevenueProductDate</members>
+		<members>LineItemRevenueScheduleDate</members>
+		<members>OpportunityLineItemQuantity</members>
+		<members>OpportunityLineItemRevenue</members>
+		<members>OpportunityQuantity</members>
+		<members>OpportunityQuantityProductDate</members>
+		<members>OpportunityQuantityScheduleDate</members>
+		<members>OpportunityRevenue</members>
+		<members>OpportunityRevenueProductDate</members>
+		<members>OpportunityRevenueScheduleDate</members>
+		<name>ForecastingType</name>
+	</types>
+	<types>
+		<name>ForecastingTypeSource</name>
+	</types>
+	<types>
+		<name>GatewayProviderPaymentMethodType</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>GlobalValueSet</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>GlobalValueSetTranslation</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>Group</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>HomePageComponent</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>HomePageLayout</name>
+	</types>
+	<types>
+		<name>IPAddressRange</name>
+	</types>
+	<types>
+		<members>IframeWhiteListUrlSettings</members>
+		<name>IframeWhiteListUrlSettings</name>
+	</types>
+	<types>
+		<name>InboundNetworkConnection</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>InstalledPackage</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>KeywordList</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>Layout</name>
+	</types>
+	<types>
+		<name>LeadConvertSettings</name>
+	</types>
+	<types>
+		<name>Letterhead</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>LightningBolt</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>LightningComponentBundle</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>LightningExperienceTheme</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>LightningMessageChannel</name>
+	</types>
+	<types>
+		<name>LightningOnboardingConfig</name>
+	</types>
+	<types>
+		<name>MLDataDefinition</name>
+	</types>
+	<types>
+		<name>MLPredictionDefinition</name>
+	</types>
+	<types>
+		<name>MLRecommendationDefinition</name>
+	</types>
+	<types>
+		<members>cms_document</members>
+		<members>cms_image</members>
+		<members>news</members>
+		<name>ManagedContentType</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>ManagedTopics</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>MatchingRules</name>
+	</types>
+	<types>
+		<name>MobileApplicationDetail</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>ModerationRule</name>
+	</types>
+	<types>
+		<name>MutingPermissionSet</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>MyDomainDiscoverableLogin</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>NamedCredential</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>NavigationMenu</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>Network</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>NetworkBranding</name>
+	</types>
+	<types>
+		<members>NotificationTypeConfig</members>
+		<name>NotificationTypeConfig</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>OauthCustomScope</name>
+	</types>
+	<types>
+		<name>OutboundNetworkConnection</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>PathAssistant</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>PaymentGatewayProvider</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>PermissionSet</name>
+	</types>
+	<types>
+		<members>test</members>
+		<name>PermissionSetGroup</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>PlatformCachePartition</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>PlatformEventChannel</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>PlatformEventChannelMember</name>
+	</types>
+	<types>
+		<name>PlatformEventSubscriberConfig</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>PostTemplate</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>PresenceDeclineReason</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>PresenceUserConfig</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>Profile</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>ProfilePasswordPolicy</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>ProfileSessionSetting</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>Prompt</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>Queue</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>QueueRoutingConfig</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>QuickAction</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>RecommendationStrategy</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>RecordActionDeployment</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>RedirectWhitelistUrl</name>
+	</types>
+	<types>
+		<members>ApexDevNet</members>
+		<members>animals_http</members>
+		<members>animals_soap</members>
+		<members>apigee_userinfo_get</members>
+		<members>guo_apigee_get</members>
+		<name>RemoteSiteSetting</name>
+	</types>
+	<types>
+		<members>AppExchange Service & Support DB/APXSSSCustAvgcaseageperaccount</members>
+		<members>AppExchange Service & Support DB/APXSSSCustEscalatedcasesMTD</members>
+		<members>AppExchange Service & Support DB/APXSSSRepTimeforclosedperRepYTD</members>
+		<members>AppExchange Service & Support DB/APXSSSRepTimeforclosedperRepMTD</members>
+		<members>AppExchange Service & Support DB/APXSSSRepOpenCasesbyAgentbyStatus</members>
+		<members>AppExchange Service & Support DB/APXSSSRepOpenCasesRepbyPriority</members>
+		<members>AppExchange Service & Support DB/APXSSSRepOpenCasesRepList</members>
+		<members>AppExchange Service & Support DB/APXSSSRepOpenCasesRepChannelYTD</members>
+		<members>AppExchange Service & Support DB/APXSSSRepOpenCasesRepChannelMTD</members>
+		<members>AppExchange Service & Support DB/APXSSSRepClosedCaseRepStatusYTD</members>
+		<members>AppExchange Service & Support DB/APXSSSRepClosedCaseRepStatusMTD</members>
+		<members>AppExchange Service & Support DB/APXSSSRepAvgResolutionTimebyRepMTD</members>
+		<members>AppExchange Service & Support DB/APXSSSRepAverageDurationperRep</members>
+		<members>AppExchange Service & Support DB/APXSSSRepAgeofOpenCases</members>
+		<members>AppExchange Service & Support DB/APXSSSRepAgentCaseLoadbyCaseType</members>
+		<members>AppExchange Service & Support DB/APXSSSCustEscalatedcasesYTD</members>
+		<members>AppExchange Service & Support DB/APXSSSCustHIGHprioritycasesMTD</members>
+		<members>AppExchange Service & Support DB/APXSSSCustHIGHprioritycasesYTD</members>
+		<members>AppExchange Service & Support DB/APXSSSCustNewcasesAccountChannelYTD</members>
+		<members>AppExchange Service & Support DB/APXSSSCustNewcasesAccountWeekYTD</members>
+		<members>AppExchange Service & Support DB/APXSSSCustNewcasesbyAccountMTD</members>
+		<members>AppExchange Service & Support DB/APXSSSCustOpenHIGHprioritycases</members>
+		<members>AppExchange Service & Support DB/APXSSSCustSumofclosedcases</members>
+		<members>AppExchange Service & Support DB/APXSSSCustSumofopencases</members>
+		<members>AppExchange Service & Support DB/APXSSSCustTotTimebyAccountYTD</members>
+		<members>AppExchange Service & Support DB/APXSSSKPIAverageDurationperStage</members>
+		<members>AppExchange Service & Support DB/APXSSSKPICasesclosedbySSP</members>
+		<members>AppExchange Service & Support DB/APXSSSKPICasesclosedin24hrs</members>
+		<members>AppExchange Service & Support DB/APXSSSKPICasescreatedbyTypeYTD</members>
+		<members>AppExchange Service & Support DB/APXSSSKPIMonthlyTrendCasesbyReason</members>
+		<members>AppExchange Service & Support DB/APXSSSKPIMonthlyTrendCasesbyType</members>
+		<members>AppExchange Service & Support DB/APXSSSKPIOpenCasesbyPriority</members>
+		<members>AppExchange Service & Support DB/APXSSSKPIOpenCasesbyQueue</members>
+		<members>AppExchange Service & Support DB/APXSSSKPIOpenCasesbyReason</members>
+		<members>AppExchange Service & Support DB/APXSSSKPIOpenCasesbyStage</members>
+		<members>AppExchange Service & Support DB/APXSSSKPIOpenedCasesbyChannelMTD</members>
+		<members>AppExchange Service & Support DB/APXSSSKPIOpenedCasesbyChannelYTD</members>
+		<members>AppExchange Service & Support DB/APXSSSKPISolutionStatus</members>
+		<members>AppExchange Service & Support DB/APXSSSKPIWeeklyTrendingCasesFQ</members>
+		<members>Campaign Dashboards/CampaignROIbytype</members>
+		<members>Campaign Dashboards/Allcampaignleadsthismonth</members>
+		<members>Campaign Dashboards/leadconversionratiobyuser</members>
+		<members>Campaign Dashboards/Winbycampaign</members>
+		<members>Campaign Dashboards/Toptencaompaignopportunities</members>
+		<members>Campaign Dashboards/Top5campaignsbyrevenue</members>
+		<members>Campaign Dashboards/leadsconvertedintoopportspermonth</members>
+		<members>Campaign Dashboards/Leadscreatedpercalendaryear</members>
+		<members>Campaign Dashboards/Leadsbyleadsource</members>
+		<members>Campaign Dashboards/Convertedleadsvaluethisyear</members>
+		<members>Campaign Dashboards/Campaignresponsesbytype</members>
+		<members>Campaign Dashboards/Campaignleadsgeneratedpermonth</members>
+		<members>Campaign Dashboards/Campaignleadsbyindustry</members>
+		<members>Campaign Dashboards/PipelinegeneratedbycampaignsthisFY</members>
+		<members>Dashboard/ActivityCloseRate</members>
+		<members>Dashboard/ActivitiesbyAssignedonOppty</members>
+		<members>Dashboard/ActivitiesCompleted</members>
+		<members>Dashboard/ActivitesbyType</members>
+		<members>Dashboard/ActivitesbyAssignedbyAccount</members>
+		<members>Dashboard/ImportantNeglectedAccounts</members>
+		<members>Dashboard/AdoptionNeglectedOpptys</members>
+		<members>Dashboard/AdoptionActivityLogging</members>
+		<members>Dashboard Reports - Adoption/PerformanceMonthlyTrendStacked</members>
+		<members>Dashboard Reports - Adoption/PerformanceOpenLeads</members>
+		<members>Dashboard Reports - Adoption/PerformanceOpenLeadsNotContacted</members>
+		<members>Dashboard Reports - Adoption/PerformanceOpportunityTypeLost</members>
+		<members>Dashboard Reports - Adoption/PerformanceOpportunityTypeWon</members>
+		<members>Dashboard Reports - Adoption/PerformancePipelinebyRep</members>
+		<members>Dashboard Reports - Adoption/PerformanceWinRate</members>
+		<members>Dashboard Reports - Adoption/TotalAccounts</members>
+		<members>Dashboard Reports - Adoption/UsageAccountsCreated</members>
+		<members>Dashboard Reports - Adoption/UsageAccountsLastModified</members>
+		<members>Dashboard Reports - Adoption/UsageActivitiesCompleted</members>
+		<members>Dashboard Reports - Adoption/UsageContactsCreated</members>
+		<members>Dashboard Reports - Adoption/UsageLoginLeaderBoard</members>
+		<members>Dashboard Reports - Adoption/PerformanceActivityTypebyRep</members>
+		<members>Dashboard Reports - Adoption/DataQualityStagesOpptyEntered</members>
+		<members>Dashboard Reports - Adoption/DataQualityOpportunitiesNoAccount</members>
+		<members>Dashboard Reports - Adoption/DataQualityLeadConversion</members>
+		<members>Dashboard Reports - Adoption/DataQualityConditionalonType</members>
+		<members>Dashboard Reports - Adoption/DataQualityCloseDateinthePast</members>
+		<members>Dashboard Reports - Adoption/DataQualityAccountswithKeyFields</members>
+		<members>Dashboard Reports - Adoption/DataQualityAccountsmissingRating</members>
+		<members>Dashboard Reports - Adoption/UsageLoginbyRolebyMonth</members>
+		<members>Dashboard Reports - Adoption/UsageWallofShame</members>
+		<members>Dashboard Reports - Adoption/UsageUsersLoggedIn</members>
+		<members>Dashboard Reports - Adoption/UsageTotalActiveUsers</members>
+		<members>Dashboard Reports - Adoption/UsageOpptyCreated</members>
+		<members>Dashboard Reports - Adoption/UsageOpenTasksbyAssignedRole</members>
+		<members>Dashboard Reports - Adoption/UsageNeglectedOpportunities</members>
+		<members>Data Quality Reports/AccountDataQualityDescriptions</members>
+		<members>Data Quality Reports/OpportunityOwnerDataQuality</members>
+		<members>Data Quality Reports/AccountOwnerDataQuality</members>
+		<members>Data Quality Reports/ActivityAssignedOwnerDataQuality</members>
+		<members>Data Quality Reports/ActivityDataQualityDescription</members>
+		<members>Data Quality Reports/ActivityDataQualityScore</members>
+		<members>Data Quality Reports/CampaignDataQualityDescription</members>
+		<members>Data Quality Reports/CampaignDataQualityScore</members>
+		<members>Data Quality Reports/CampaignOwnerDataQuality</members>
+		<members>Data Quality Reports/CaseDataQualityDescription</members>
+		<members>Data Quality Reports/CaseDataQualityScore</members>
+		<members>Data Quality Reports/CaseOwnerDataQuality</members>
+		<members>Data Quality Reports/ContactDataQualityDescriptions</members>
+		<members>Data Quality Reports/ContactDataQualityScore</members>
+		<members>Data Quality Reports/ContactOwnerDataQuality</members>
+		<members>Data Quality Reports/ContractDataQualityDescription</members>
+		<members>Data Quality Reports/ContractDataQualityScore</members>
+		<members>Data Quality Reports/OpportunityDataQualityScore</members>
+		<members>Data Quality Reports/OpportunityDataQualityDescription</members>
+		<members>Data Quality Reports/LeadOwnerDataQuality</members>
+		<members>Data Quality Reports/LeadDataQualityScore</members>
+		<members>Data Quality Reports/LeadDataQualityDescription</members>
+		<members>Data Quality Reports/ContractOwnerDataQuality</members>
+		<members>Data Quality Reports/AccountDataQualityScore</members>
+		<members>Docs Tab Management Dashboard/DocCapacityCreateDate120Days</members>
+		<members>Docs Tab Management Dashboard/DocCapacityLastMod120Days</members>
+		<members>Docs Tab Management Dashboard/DocsCreateDate120Days</members>
+		<members>Docs Tab Management Dashboard/DocsLastMod120Days</members>
+		<members>Docs Tab Management Dashboard/DocumentsFilesize5MB</members>
+		<members>Docs Tab Management Dashboard/DocumentsMonthbyFilesize</members>
+		<members>Docs Tab Management Dashboard/DocumentsMonthbyFiletype</members>
+		<members>Docs Tab Management Dashboard/DocumentsbyAuthor</members>
+		<members>Docs Tab Management Dashboard/DocumentsbyAuthorFilesize5MB</members>
+		<members>Docs Tab Management Dashboard/DocumentsbyFiletype</members>
+		<members>Docs Tab Management Dashboard/MostActiveUsersLastModifiedDate</members>
+		<members>Docs Tab Management Dashboard/TopAuthorsByFilesize</members>
+		<members>Docs Tab Management Dashboard/TopFoldersByFilesize</members>
+		<members>Docs Tab Management Dashboard/AverageFilesize</members>
+		<members>Docs Tab Management Dashboard/CapacityUsedbyFiletype</members>
+		<members>Docs Tab Management Dashboard/CurrentCapacityUsedFilesize5MB</members>
+		<members>Docs Tab Management Dashboard/CurrentDocumentsCapacityUsed</members>
+		<members>Lead Dashboard Folder/ConvertedwithOpptys</members>
+		<members>Lead Dashboard Folder/LeadOwnerBreakdown</members>
+		<members>Lead Dashboard Folder/LeadSourceandStatus</members>
+		<members>Lead Dashboard Folder/LeadsbyPhone</members>
+		<members>Lead Dashboard Folder/LeadsbySource</members>
+		<members>Lead Dashboard Folder/LeadsbyWeb</members>
+		<members>Lead Dashboard Folder/OtherLeadsThisWeek</members>
+		<members>Lead Dashboard Folder/TotalLeadOwnership</members>
+		<members>unfiled$public/New_Leads_Report_eRW</members>
+		<members>unfiled$public/New_Cases_Report_Utx</members>
+		<members>unfiled$public/New_Opportunities_Report_JxH</members>
+		<members>unfiled$public/Copy_of_Leads_by_Lead_Source2_WU4</members>
+		<members>unfiled$public/flow_screen_prebuilt_report</members>
+		<members>unfiled$public/New_Opportunities_Report_Yn5</members>
+		<members>Salesforce INSIDE/INSIDEofAccounts</members>
+		<members>Salesforce INSIDE/INSIDEofActiveUsers</members>
+		<members>Salesforce INSIDE/INSIDEofReportsbyFolder</members>
+		<members>Salesforce INSIDE/INSIDEofDocumentsbyFolder</members>
+		<members>Salesforce INSIDE/INSIDEofContactsbyIndustry</members>
+		<members>Sales KPI Dashboard/ClosedSalesYTD</members>
+		<members>Sales KPI Dashboard/ClosedSalesQTD</members>
+		<members>Sales KPI Dashboard/NewPartnerOpportunities</members>
+		<members>Sales KPI Dashboard/Openvsworkingleads</members>
+		<members>Sales KPI Dashboard/OppsbyReps</members>
+		<members>Sales KPI Dashboard/SalesByRep</members>
+		<members>Sales KPI Dashboard/Splitexistingvsnewcustomer</members>
+		<members>Sales KPI Dashboard/Thisvslastyearclosedbusiness</members>
+		<members>Sales KPI Dashboard/Topopenopportunities</members>
+		<members>Sales KPI Dashboard/WinLossRatio</members>
+		<members>Sales KPI Dashboard/WinLossRatioonelinereport</members>
+		<members>Sales KPI Dashboard/ClosedSalesbyCountry</members>
+		<members>Sales KPI Dashboard/ClosedSalesbyMonthandIndustry</members>
+		<members>Sales KPI Dashboard/LeadSources</members>
+		<members>Sales KPI Dashboard/NeglectedOpportunities</members>
+		<members>Sales KPI Dashboard/NewBusinessPipeline</members>
+		<members>Sales Visibility Dashboard/SALESTotalClosedLASTMONTH</members>
+		<members>Sales Visibility Dashboard/SALESTopAccountsCreatingRevenues</members>
+		<members>Sales Visibility Dashboard/SALESQuarterlyPipelinebyCloseMonth</members>
+		<members>Sales Visibility Dashboard/SALESOpenDealsbyIndustryType</members>
+		<members>Sales Visibility Dashboard/SALESMonthOverMonthCloseTrend</members>
+		<members>Sales Visibility Dashboard/SALESLastMonthvsThisMonthClsd</members>
+		<members>Sales Visibility Dashboard/SALESDealsGreaterthan50Prob</members>
+		<members>Sales Visibility Dashboard/SALESWinLossRatio</members>
+		<members>Sales Visibility Dashboard/SALESTotalDealsClosedThisMonth</members>
+		<members>Sales Visibility Dashboard/SALESTotalClosedYEAR</members>
+		<members>Sales Visibility Dashboard/SALESTotalClosedTHISMONTH</members>
+		<members>Sales Visibility Dashboard/SALESTotalClosedQTR</members>
+		<members>Sales Visibility Dashboard/SALESTotalDealsOpenThisMonth</members>
+		<members>User Adoption Dashboard from AppExchange/AllAccountsLast60Days</members>
+		<members>User Adoption Dashboard from AppExchange/AllCasesClosedLast60Days</members>
+		<members>User Adoption Dashboard from AppExchange/AllCasesOpenedLast60Days</members>
+		<members>User Adoption Dashboard from AppExchange/AllContactsLast60Days</members>
+		<members>User Adoption Dashboard from AppExchange/AllEventsLast60Days</members>
+		<members>User Adoption Dashboard from AppExchange/AllLeadsConvertedLast60Days</members>
+		<members>User Adoption Dashboard from AppExchange/AllOpportunitiesLast60Days</members>
+		<members>User Adoption Dashboard from AppExchange/AllLeadsbyLeadSourceLast60Days</members>
+		<members>User Adoption Dashboard from AppExchange/AllTasksLast60Days</members>
+		<members>User Adoption Dashboard from AppExchange/AllTasksbyTypeLast60Days</members>
+		<members>User Adoption Dashboard from AppExchange/UsersLoggedinLast7Days</members>
+		<members>User Adoption Dashboard from AppExchange/UsersNotLoggedinLast7Days</members>
+		<members>User Adoption Dashboard from AppExchange/AllLeadsLast60Days</members>
+		<name>Report</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>ReportType</name>
+	</types>
+	<types>
+		<name>RestrictionRule</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>Role</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>SamlSsoConfig</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>Scontrol</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>ServiceChannel</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>ServicePresenceStatus</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>Settings</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>SharingRules</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>SharingSet</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>SiteDotCom</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>Skill</name>
+	</types>
+	<types>
+		<name>StandardValueSet</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>StandardValueSetTranslation</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>StaticResource</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>SynonymDictionary</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>Territory2</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>Territory2Model</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>Territory2Rule</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>Territory2Type</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>TopicsForObjects</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>TransactionSecurityPolicy</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>Translations</name>
+	</types>
+	<types>
+		<members>Customer Support Community.Customer_Members</members>
+		<members>Customer Support Community.Members_without_contribution</members>
+		<members>Customer Support Community.Partner_and_Customer_members</members>
+		<members>Customer Support Community_20200918.Customer_Members</members>
+		<members>Customer Support Community_20200918.Members_without_contribution</members>
+		<members>Customer Support Community_20200918.Partner_and_Customer_members</members>
+		<members>KikiSite.Customer_Members</members>
+		<members>KikiSite.Members_without_contribution</members>
+		<members>KikiSite.Partner_and_Customer_members</members>
+		<members>MyTestSite.Customer_Members</members>
+		<members>MyTestSite.Members_without_contribution</members>
+		<members>MyTestSite.Partner_and_Customer_members</members>
+		<members>lwc-test-page.Customer_Members</members>
+		<members>lwc-test-page.Members_without_contribution</members>
+		<members>lwc-test-page.Partner_and_Customer_members</members>
+		<members>tao-first-commerce.Customer_Members</members>
+		<members>tao-first-commerce.Members_without_contribution</members>
+		<members>tao-first-commerce.Partner_and_Customer_members</members>
+		<name>UserCriteria</name>
+	</types>
+	<types>
+		<name>UserProfileSearchScope</name>
+	</types>
+	<types>
+		<name>UserProvisioningConfig</name>
+	</types>
+	<types>
+		<name>WebStoreTemplate</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>WorkSkillRouting</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>Workflow</name>
+	</types>
+	<version>53.0</version>
+</Package>
